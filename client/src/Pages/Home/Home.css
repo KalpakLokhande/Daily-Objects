@@ -4,4 +4,5 @@
     background: #111111;
     background: ghostwhite;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }

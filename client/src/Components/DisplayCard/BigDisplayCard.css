@@ -1,0 +1,13 @@
+.bigDisplayCard{
+    flex-shrink: 0;
+    width: 400px;
+    height: 100%;
+    color: #090909;
+    line-height: 20px;
+    margin-top: 30px;
+
+    img {
+        width: 100%;
+        height: 80%;
+    }
+}
