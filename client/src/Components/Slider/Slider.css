@@ -1,0 +1,15 @@
+.slider{
+    width: 100vw;
+    
+    .container{
+        width: 500vw;
+        transition: all 1s ease;
+        display: flex;
+    }
+
+    img{
+
+        width: 100vw;
+        object-fit: cover;
+    }
+}

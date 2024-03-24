@@ -1,0 +1,7 @@
+.home{
+    width: calc(100vw);
+    height: 100dvh;
+    background: #111111;
+    background: ghostwhite;
+    overflow-x: hidden;
+}

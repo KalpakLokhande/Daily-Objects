@@ -1,0 +1,38 @@
+.newArrivals{
+    height: 350px;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+    .left{
+        width: 32%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        padding-left: 60px;
+        flex-direction: column;
+        color: #090909;
+        flex-shrink: 0;
+    }
+
+    .right{
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .container{
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: top;
+        gap: 20px;
+        flex-shrink: 0;
+    }
+
+}
+
