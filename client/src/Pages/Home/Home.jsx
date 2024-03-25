@@ -30,7 +30,6 @@ const Home = () => {
             <img style={{width:'100%', marginBottom:'5%'}} src={features} ></img>
             <p style={{width:'100%', textAlign:'center', fontSize:'32px', margin:'5% 0'}} >  Honest Reviews, Nothing Else. </p>
             <img style={{width:'100%', marginBottom:'5%'}} src={reviews} ></img>
-
         </div>
     )
 }

@@ -6,6 +6,9 @@ import search from '../../assets/Search.png'
 import profile from '../../assets/Profile.png'
 import TechDropdown from './TechDropDown/TechDropdown'
 import BagsAndWallets from './BagsAndWallets/BagsAndWallets'
+import WorkEssentials from './WorkEssentials/WorkEssentials'
+import ShopByApple from './ShopByApple/ShopByApple'
+import NewArrivalsNavbar from './NewArrivals/NewArrivalsNavbar'
 
 const Navbar = () => {
 
@@ -81,7 +84,7 @@ const Navbar = () => {
         style={{ display: dropDownState.workEssentials ? 'block' : 'none', position: 'absolute', top: '85px', left: '0', zIndex: '1', width: '100%', height: '300px', background: '#111' }}
         onMouseEnter={() => setDropDownState({ workEssentials: true })}
         onMouseLeave={() => setDropDownState({ workEssentials: false })}>
-        <h1 style={{ color: 'aliceBlue' }} > Work Essentials </h1>
+          <WorkEssentials></WorkEssentials>
       </div>
 
       <div
@@ -97,7 +100,7 @@ const Navbar = () => {
         style={{ display: dropDownState.shopByApple ? 'block' : 'none', position: 'absolute', top: '85px', left: '0', zIndex: '1', width: '100%', height: '300px', background: '#111' }}
         onMouseEnter={() => setDropDownState({ shopByApple: true })}
         onMouseLeave={() => setDropDownState({ shopByApple: false })}>
-        <h1 style={{ color: 'aliceBlue' }} > Shop By Apple </h1>
+          <ShopByApple></ShopByApple>
       </div>
 
       <div
@@ -105,7 +108,7 @@ const Navbar = () => {
         style={{ display: dropDownState.newArrivals ? 'block' : 'none', position: 'absolute', top: '85px', left: '0', zIndex: '1', width: '100%', height: '300px', background: '#111' }}
         onMouseEnter={() => setDropDownState({ newArrivals: true })}
         onMouseLeave={() => setDropDownState({ newArrivals: false })}>
-        <h1 style={{ color: 'aliceBlue' }} > New Arrivals </h1>
+          <NewArrivalsNavbar></NewArrivalsNavbar>
       </div>
 
     </>
