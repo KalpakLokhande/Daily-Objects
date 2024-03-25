@@ -7,6 +7,9 @@
     align-items: center;
     color: aliceblue;
     padding: 0px 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
 
     .left{
         height: 100%;
