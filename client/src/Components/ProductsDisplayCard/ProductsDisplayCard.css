@@ -1,0 +1,4 @@
+.productsDisplayCard{
+    width: calc(100vw / 4);
+    height: 300px;
+}

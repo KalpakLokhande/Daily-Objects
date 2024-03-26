@@ -1,9 +1,8 @@
 .home{
-    width: calc(100vw);
+    width: 100vw;
     height: 100dvh;
     position: relative;
     background: rgb(239,237,233);
-
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
